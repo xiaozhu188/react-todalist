@@ -1,26 +1,63 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import { Button, Input } from 'antd'
+import { connect } from "react-redux"
+import request from './utils/request'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { add, changeValue, del } from './store/createAction'
+
+class App extends Component {
+
+  onKeyPress = e => {
+    if ( e.nativeEvent.keyCode === 13 ) {
+      this.props.addItems( this.props.inputValue )
+    }
+  }
+
+  componentDidMount () {
+    request.post( 'ProjectManage/GetProjectManageData' ).then( res => {
+      console.log( res )
+    } )
+  }
+
+  render () {
+    const { inputValue, list, addItems, delItems, onChange } = this.props
+    return (
+      <div className="todo-list">
+        <Input value={ inputValue } onInput={ onChange } onKeyPress={ this.onKeyPress } />
+        <Button onClick={ () => addItems( inputValue ) }>提交</Button>
+        <div>
+          <ul>
+            {
+              list.map( ( item, index ) => {
+                return ( <li key={ item.id+index } onClick={ () => delItems( item.id ) }>{ item.title }</li> )
+              } )
+            }
+          </ul>
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;
+const mapState = ( state ) => {
+  return {
+    inputValue: state.inputValue,
+    list: state.list
+  }
+}
+
+const mapDispatch = ( dispatch ) => {
+  return {
+    onChange: e => {
+      dispatch( changeValue( e.target.value ) )
+    },
+    addItems: value => {
+      dispatch( add( value ) )
+    },
+    delItems: value => {
+      dispatch( del( value ) )
+    }
+  }
+}
+
+export default connect( mapState, mapDispatch )( App )

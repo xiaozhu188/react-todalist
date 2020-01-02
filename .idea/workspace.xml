@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af06b54a-05bd-4870-94ca-19087ae46fad" name="默认更改列表" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/todolist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/createAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1VkB1EBPxsIyi0RYg5jemlWfVcE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/vue/electron-vue-cloud-music" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af06b54a-05bd-4870-94ca-19087ae46fad" name="默认更改列表" comment="" />
+      <created>1577786995165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577786995165</updated>
+      <workItem from="1577786997702" duration="34000" />
+      <workItem from="1577928417917" duration="18375000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="97" key="#ESLint" timestamp="1577953912542">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="407" y="97" key="#ESLint/0.0.1631.877@0.0.1631.877" timestamp="1577953912542" />
+    <state x="407" y="97" key="#JavaScript" timestamp="1577932718297">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="407" y="97" key="#JavaScript/0.0.1631.877@0.0.1631.877" timestamp="1577932718297" />
+    <state x="653" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577955792087">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="653" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1631.877@0.0.1631.877" timestamp="1577955792087" />
+    <state x="394" y="63" key="CommitChangelistDialog2" timestamp="1577948463394">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="394" y="63" key="CommitChangelistDialog2/0.0.1631.877@0.0.1631.877" timestamp="1577948463394" />
+    <state x="595" y="193" key="FileChooserDialogImpl" timestamp="1577928635339">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="595" y="193" key="FileChooserDialogImpl/0.0.1631.877@0.0.1631.877" timestamp="1577928635339" />
+    <state x="185" y="79" width="1265" height="708" key="SettingsEditor" timestamp="1577951777587">
+      <screen x="0" y="0" width="1631" height="877" />
+    </state>
+    <state x="185" y="79" width="1265" height="708" key="SettingsEditor/0.0.1631.877@0.0.1631.877" timestamp="1577951777587" />
+  </component>
+</project>
